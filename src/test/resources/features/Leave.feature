@@ -10,6 +10,7 @@ Feature: leave general
     And buscar empleado <employee>
     Then al encontrar el empleado <employee> y seleccionar una accion <action>
 
+ 
     Examples: 
       | userName | pass     | employee       | action |
       | Admin    | admin123 | Jasmine Morgan | Cancel |
