@@ -22,11 +22,11 @@ public class LeavePage {
 		buttonPages.btnLeave();
 		questions.seachScroll(employee);
 		questions.screenShot();
+		//comentario
 	}
 	
 	public void actionsEmployee(String employee, String action) {
 		listPages.selectActions(employee, action);
 		questions.screenShot();
 	}
-
 }

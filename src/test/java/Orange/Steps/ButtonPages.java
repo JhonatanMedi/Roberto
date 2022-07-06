@@ -7,6 +7,8 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 public class ButtonPages {
+	
+	//jhonatan creo
 
 	@FindBy(how = How.ID, using = "btnLogin")
 	private WebElement botonLogin;
